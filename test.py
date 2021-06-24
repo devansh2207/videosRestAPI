@@ -27,10 +27,6 @@ data = [
 
 # response = requests.put(BASE + "video/"+ "4", data[0])
 
-# response = requests.get(BASE + "video/"+ "4")
-
-#delete kar 4 wala idhar
-
 response = requests.get(BASE + "video/"+ "4")
 
 print(response.json())
